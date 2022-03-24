@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>Hoodies 4 All - Home</title>
+    <title>Hoodies 4 All - Boys</title>
 </svelte:head>
 
-<h1>Home Page</h1>
+<h1>Boys Page</h1>
