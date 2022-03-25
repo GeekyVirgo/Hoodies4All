@@ -5,8 +5,19 @@
 <div id="wrapper">
     <!-- HEADER SECTION -->
     <header class="header">
-        <!-- sign in -->
-        <!-- shopping bag -->
+        <div class="headerContainer">
+            <ul class="headerMenu">
+                <li class="headerItem">
+                    <i class="iconz fa-solid fa-user fa-xl" />
+                    <a href="/" class="headerLinks">Sign In</a>
+                </li>
+
+                <li class="headerItem">
+                    <i class="iconz fa-solid fa-bag-shopping fa-xl" />
+                    <a href="/" class="headerLinks">Shopping Bag</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <!-- NAV SECTION -->
@@ -37,7 +48,5 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <!-- footer -->
-    </footer>
+    <footer>Copyright &copy; 2022, JavaScript Junkies</footer>
 </div>
