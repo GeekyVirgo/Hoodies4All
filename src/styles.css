@@ -6,11 +6,13 @@
 }
 
 body {
-    background-color: #fedfb4;
+    background: url(BlackBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #wrapper {
-    width: 95%;
+    width: 90%;
     margin: 10px auto 0;
 }
 
@@ -22,6 +24,7 @@ body {
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
+    border-radius: 10px 10px 0 0;
 }
 
 .headerContainer {
@@ -137,4 +140,5 @@ main {
 footer {
     background-color: black;
     color: white;
+    border-radius: 0 0 10px 10px;
 }
