@@ -89,9 +89,11 @@ body {
 }
 
 #navLogo {
+    margin: 5px;
+    padding: 5px;
     color: white;
     font-weight: bolder;
-    border-radius: 50%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     cursor: pointer;
