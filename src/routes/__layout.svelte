@@ -1,6 +1,21 @@
 <script>
+    // imports
+    import SignInForm from "../components/SignInForm.svelte";
+    import Modal from "../components/Modal.svelte";
     import "../styles.css";
+
+    // variables
+    let showModal = false;
+
+    // functions
+    const toggleModal = () => {
+        showModal = !showModal;
+    };
 </script>
+
+<Modal {showModal} on:click={toggleModal}>
+    <SignInForm />
+</Modal>
 
 <div id="wrapper">
     <!-- HEADER SECTION -->
@@ -9,7 +24,9 @@
             <ul class="headerMenu">
                 <li class="headerItem">
                     <i class="iconz fa-solid fa-user fa-xl" />
-                    <a href="/login" class="headerLinks">Sign In</a>
+                    <a href="/#" class="headerLinks" on:click={toggleModal}
+                        >Sign In</a
+                    >
                 </li>
 
                 <li class="headerItem">
