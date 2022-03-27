@@ -85,7 +85,7 @@ body {
     z-index: 1;
     width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 0 0 20px;
 }
 
 #navLogo {
@@ -143,4 +143,42 @@ footer {
     background-color: black;
     color: white;
     border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footerContent {
+    display: flexbox;
+    height: 170px;
+    width: 200px;
+}
+
+.footerHeader {
+    font-size: 1.47rem;
+    font-weight: 700;
+}
+
+.footerMenu {
+    list-style: none;
+}
+
+.footerLinks {
+    line-height: 2.3;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.footerLinks a:hover {
+    color: #fd1d1d;
+    transition: all 0.3s ease 0s;
 }

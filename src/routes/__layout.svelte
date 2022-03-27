@@ -9,12 +9,12 @@
             <ul class="headerMenu">
                 <li class="headerItem">
                     <i class="iconz fa-solid fa-user fa-xl" />
-                    <a href="/" class="headerLinks">Sign In</a>
+                    <a href="/login" class="headerLinks">Sign In</a>
                 </li>
 
                 <li class="headerItem">
                     <i class="iconz fa-solid fa-bag-shopping fa-xl" />
-                    <a href="/" class="headerLinks">Shopping Bag</a>
+                    <a href="/cart" class="headerLinks">Shopping Bag</a>
                 </li>
             </ul>
         </div>
@@ -48,5 +48,41 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>Copyright &copy; 2022, JavaScript Junkies</footer>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerContent">
+                <h3 class="footerHeader">Contact Us</h3>
+                <ul class="footerMenu">
+                    <li class="footerLinks"><a href="/">Call</a></li>
+                    <li class="footerLinks"><a href="/">Text</a></li>
+                    <li class="footerLinks"><a href="/">Email</a></li>
+                    <li class="footerLinks"><a href="/">Chat</a></li>
+                </ul>
+            </div>
+
+            <div class="footerContent">
+                <h3 class="footerHeader">Customer Service</h3>
+                <ul class="footerMenu">
+                    <li class="footerLinks">
+                        <a href="/">Returns & Exchanges</a>
+                    </li>
+                    <li class="footerLinks"><a href="/">Order Status</a></li>
+                    <li class="footerLinks"><a href="/">Return Policy</a></li>
+                    <li class="footerLinks"><a href="/">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footerContent">
+                <h3 class="footerHeader">Corporate Info</h3>
+                <ul class="footerMenu">
+                    <li class="footerLinks"><a href="/">Careers</a></li>
+                    <li class="footerLinks"><a href="/">About</a></li>
+                    <li class="footerLinks"><a href="/">Press</a></li>
+                    <li class="footerLinks">
+                        <a href="/">Investor Relations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <i>Copyright &copy; 2022, JavaScript Junkies</i>
+    </footer>
 </div>
