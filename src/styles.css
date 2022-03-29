@@ -89,6 +89,9 @@ body {
 }
 
 #navLogo {
+    font-family: "Bilbo Swash Caps", sans-serif;
+    font-size: 4rem;
+    text-shadow: 3px 3px black;
     margin: 5px;
     padding: 5px;
     color: white;
@@ -98,7 +101,6 @@ body {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
