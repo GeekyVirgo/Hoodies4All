@@ -2,10 +2,14 @@
     // imports
 
     // variables
+    let username;
+    let password;
 
     // functions
     const fxnSubmit = () => {
         alert("Thank you for signing in");
+        username = "";
+        password = "";
     };
 </script>
 
@@ -19,12 +23,22 @@
             <div class="signIn">Sign In</div>
             <div class="username">
                 <i class="fa-solid fa-user fa-xl" />
-                <input type="text" placeholder="Username or Email" required />
+                <input
+                    type="text"
+                    placeholder="Username or Email"
+                    required
+                    bind:value={username}
+                />
             </div>
 
             <div class="password">
                 <i class="fa-solid fa-lock fa-xl" />
-                <input type="password" placeholder="Password" required />
+                <input
+                    type="password"
+                    placeholder="Password"
+                    required
+                    bind:value={password}
+                />
             </div>
 
             <div class="options">
@@ -122,6 +136,7 @@
         background-color: #833ab4;
         color: white;
         margin-bottom: 5px;
+        cursor: pointer;
     }
 
     .forgotPassword a,
