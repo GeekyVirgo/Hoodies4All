@@ -31,7 +31,7 @@
         padding: 10px;
         border-radius: 10px;
         max-width: 500px;
-        margin: auto;
+        margin: 20px auto;
         text-align: center;
         background: white;
     }
