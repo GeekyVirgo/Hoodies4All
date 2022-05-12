@@ -1,5 +1,5 @@
 <script>
-    // imports
+    // imports //
 
     // variables
     let username;
